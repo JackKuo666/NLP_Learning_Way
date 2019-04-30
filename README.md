@@ -10,7 +10,7 @@
 
 # 2.课程推荐
 
-CS224n 斯坦福深度自然语言处理课
+### CS224n 斯坦福深度自然语言处理课
 
 17版中文字幕：
 
@@ -25,34 +25,34 @@ http://www.hankcs.com/?s=CS224n%E7%AC%94%E8%AE%B0
 http://web.stanford.edu/class/cs224n/ 
 
 
-自然语言处理 - Dan Jurafsky 和 Chris Manning
+### 自然语言处理 - Dan Jurafsky 和 Chris Manning
 
 B站英文字幕版：
 
 https://www.bilibili.com/video/av35805262/
 
-学术激流网：
+### 学术激流网：
 
 http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
 
 # 3.书籍推荐
 
-Python自然语言处理 
+### Python自然语言处理 
 
 >入门读物，整本书不仅涉及了语料库的操作，也对传统的基于规则的方法有所涉及。全书包括了分词（tokenization）、词性标注（POS）、语块（Chunk）标注、句法剖析与语义剖析等方面，是nlp中不错的一本实用教程。
 
 
-自然语言处理综论
+### 自然语言处理综论
 
-By Daniel Jurafsky和James H. Martin
+>By Daniel Jurafsky和James H. Martin
 
 >本书十分权威，是经典的NLP教科书，涵盖了经典自然语言处理、统计自然语言处理、语音识别和计算语言学等方面。
 
 
-统计自然语言处理基础
+### 统计自然语言处理基础
 
-By Chris Manning和HinrichSchütze
+>By Chris Manning和HinrichSchütze
 
 >更高级的统计NLP方法，在统计基本部分和n元语法部分介绍得都很不错。
 
@@ -101,12 +101,12 @@ https://github.com/skaae/lasagne-draw
 
 # 6.开源NLP工具包
 
-中文NLP相关：
+### 中文NLP相关：
 
 https://github.com/crownpku/Awesome-Chinese-NLP
 
 
-英文NLP相关：
+### 英文NLP相关：
 
 NLTK: http://www.nltk.org/
 
@@ -131,9 +131,9 @@ https://github.com/mhagiwara/100-nlp-papers
 
 
 
-# Papers with Code
+# 8.Papers with Code
 
-## Papers with Code(Browse state-of-the-art)
+### Papers with Code(Browse state-of-the-art)
 这个网站叫做 Browse state-of-the-art。它将 ArXiv 上的最新深度学习论文与 GitHub 上的开源代码联系起来。该项目目前包含了 651 个排行榜，1016 个深度学习任务，795 个数据集，以及重磅的 10257 个含复现代码的优秀论文。简直就是一个寻找论文和代码的利器。它将 1016 个深度学习任务分成了 16 大类，涉及了深度学习的各个方面。
 
 主页地址：
@@ -141,7 +141,7 @@ https://github.com/mhagiwara/100-nlp-papers
 https://paperswithcode.com/sota
 
 
-## Papers with Code(Sorted by stars)
+### Papers with Code(Sorted by stars)
 
 这份资源收集了 AI 领域从 2013 - 2018 年所有的论文，并按照在 GitHub 上的标星数量进行排序。
 
@@ -156,5 +156,5 @@ https://github.com/zziz/pwc
 
 
 
-
+参考：
 https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247486493&idx=3&sn=c9f142f68774ff5103353f02aa6a7a45&chksm=fbac2d42ccdba454869bda2651740be06b634f5a073e49a25341879208b05d5a6eb19cc260b9&mpshare=1&scene=1&srcid=&pass_ticket=BT1lsAw9%2Bp9l5g2hmxfU%2BSDUA4rNYaDkNElT5fOXwcCnqD95iPPrdmgeEYXgI6iQ#rd
