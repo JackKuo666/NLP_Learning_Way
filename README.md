@@ -68,9 +68,7 @@ TFIDF、文档相似度等等在这个网站上都有通俗易懂的解释
 
 ### 语言日志博客（Mark Liberman）
 
-地址：
-
-http://languagelog.ldc.upenn.edu/nll/  
+地址：http://languagelog.ldc.upenn.edu/nll/  
 
 
 ### natural language processing blog 
@@ -156,5 +154,5 @@ https://github.com/zziz/pwc
 
 
 
-参考：
-https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247486493&idx=3&sn=c9f142f68774ff5103353f02aa6a7a45&chksm=fbac2d42ccdba454869bda2651740be06b634f5a073e49a25341879208b05d5a6eb19cc260b9&mpshare=1&scene=1&srcid=&pass_ticket=BT1lsAw9%2Bp9l5g2hmxfU%2BSDUA4rNYaDkNElT5fOXwcCnqD95iPPrdmgeEYXgI6iQ#rd
+参考：(完备的 AI 学习路线，最详细的资源整理！ )[https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247486493&idx=3&sn=c9f142f68774ff5103353f02aa6a7a45&chksm=fbac2d42ccdba454869bda2651740be06b634f5a073e49a25341879208b05d5a6eb19cc260b9&mpshare=1&scene=1&srcid=&pass_ticket=BT1lsAw9%2Bp9l5g2hmxfU%2BSDUA4rNYaDkNElT5fOXwcCnqD95iPPrdmgeEYXgI6iQ#rd
+]
