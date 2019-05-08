@@ -45,9 +45,7 @@ http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
 >入门读物，整本书不仅涉及了语料库的操作，也对传统的基于规则的方法有所涉及。全书包括了分词（tokenization）、词性标注（POS）、语块（Chunk）标注、句法剖析与语义剖析等方面，是nlp中不错的一本实用教程。
 
-- [ ] List item : 完成度50%：项目地址在[Python_nlp_notes](https://github.com/JackKuo666/Python_nlp_notes)【
-
-这是我《 Python 自然语言处理 中文第二版 》jupyter版笔记 】
+- [ ] List item : 完成度50%：项目地址在[Python_nlp_notes 【这是我《 Python 自然语言处理 中文第二版 》jupyter版笔记 】](https://github.com/JackKuo666/Python_nlp_notes)
 
 ### 自然语言处理综论
 
@@ -163,7 +161,7 @@ https://github.com/zziz/pwc
 
 
 
-# - [x] NLP第1课：中文自然语言处理的完整机器处理流程
+# - [X] NLP第1课：中文自然语言处理的完整机器处理流程
 https://www.jianshu.com/p/b87e01374a65
 
 https://www.jianshu.com/u/ba83fba00eef
