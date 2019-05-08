@@ -1,6 +1,7 @@
 # NLP_Learning_Way
 这是我在学习NLP的学习计划列表
-
+ - [x] List item
+- [ ] List item
 
 
 # NLP是什么
@@ -41,7 +42,8 @@ http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 ### Python自然语言处理 
 
 >入门读物，整本书不仅涉及了语料库的操作，也对传统的基于规则的方法有所涉及。全书包括了分词（tokenization）、词性标注（POS）、语块（Chunk）标注、句法剖析与语义剖析等方面，是nlp中不错的一本实用教程。
-
+ - [x] List item
+- [ ] List item
 
 ### 自然语言处理综论
 
