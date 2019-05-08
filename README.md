@@ -25,6 +25,7 @@ http://www.hankcs.com/?s=CS224n%E7%AC%94%E8%AE%B0
 
 http://web.stanford.edu/class/cs224n/ 
 
+- [ ] List item
 
 ### 自然语言处理 - Dan Jurafsky 和 Chris Manning
 
@@ -36,6 +37,7 @@ https://www.bilibili.com/video/av35805262/
 
 http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
+- [ ] List item
 
 # 3.书籍推荐
 
@@ -51,6 +53,7 @@ http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
 >本书十分权威，是经典的NLP教科书，涵盖了经典自然语言处理、统计自然语言处理、语音识别和计算语言学等方面。
 
+- [ ] List item
 
 ### 统计自然语言处理基础
 
@@ -58,6 +61,7 @@ http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
 >更高级的统计NLP方法，在统计基本部分和n元语法部分介绍得都很不错。
 
+- [ ] List item
 
 # 4.博客推荐
 
@@ -67,11 +71,13 @@ http://academictorrents.com/details/d2c8f8f1651740520b7dfab23438d89bc8c0c0ab
 
 TFIDF、文档相似度等等在这个网站上都有通俗易懂的解释
 
+- [ ] List item
 
 ### 语言日志博客（Mark Liberman）
 
 地址：http://languagelog.ldc.upenn.edu/nll/  
 
+- [ ] List item
 
 ### natural language processing blog 
 
@@ -79,6 +85,7 @@ TFIDF、文档相似度等等在这个网站上都有通俗易懂的解释
 
 美国Hal Daumé III维护的一个natural language processing的  博客，经常评论最新学术动态，值得关注。有关于ACL、NAACL等学术会议的参会感想和对论文的点评
 
+- [ ] List item
 
 # 5.项目推荐
 
@@ -98,6 +105,7 @@ https://github.com/phunterlau/wangfeng-rnn
 
 https://github.com/skaae/lasagne-draw
 
+- [ ] List item
 
 # 6.开源NLP工具包
 
@@ -105,6 +113,7 @@ https://github.com/skaae/lasagne-draw
 
 https://github.com/crownpku/Awesome-Chinese-NLP
 
+- [ ] List item
 
 ### 英文NLP相关：
 
@@ -122,6 +131,7 @@ Orange: http://orange.biolab.si/features/
 
 Pineapple: https://github.com/proycon/pynlpl
 
+- [ ] List item
 
 # 7.相关论文
 
@@ -129,7 +139,7 @@ Pineapple: https://github.com/proycon/pynlpl
 
 https://github.com/mhagiwara/100-nlp-papers
 
-
+- [ ] List item
 
 # 8.Papers with Code
 
@@ -156,7 +166,7 @@ https://www.jianshu.com/p/b87e01374a65
 
 https://www.jianshu.com/u/ba83fba00eef
 
-
+- [x] List item
 
 
 参考：[完备的 AI 学习路线，最详细的资源整理！](https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247486493&idx=3&sn=c9f142f68774ff5103353f02aa6a7a45&chksm=fbac2d42ccdba454869bda2651740be06b634f5a073e49a25341879208b05d5a6eb19cc260b9&mpshare=1&scene=1&srcid=&pass_ticket=BT1lsAw9%2Bp9l5g2hmxfU%2BSDUA4rNYaDkNElT5fOXwcCnqD95iPPrdmgeEYXgI6iQ#rd
