@@ -312,8 +312,13 @@ http://www.huaxiaozhuan.com/
 
 这部分的内容更加侧重于 AI 实战，包含很多具体函数库的使用教程和代码。例如 lightbgm 是一个快速的，分布式的，高性能的基于决策树算法的梯度提升框架。可用于排序，分类，回归以及很多其他的机器学习任务中。本书对 lightbgm 的安装、各参数含义、调参、使用等都作了详细的介绍，宛如一份优秀的中文文档！
 
+---
 
-# NLP第1课：中文自然语言处理的完整机器处理流程
+# 其他：
+
+### 完成：
+
+NLP第1课：中文自然语言处理的完整机器处理流程
 https://www.jianshu.com/p/b87e01374a65
 
 https://www.jianshu.com/u/ba83fba00eef
@@ -321,7 +326,7 @@ https://www.jianshu.com/u/ba83fba00eef
 - [X] 完成
 
 
-# 
+
 
 
 参考：[完备的 AI 学习路线，最详细的资源整理！](https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247486493&idx=3&sn=c9f142f68774ff5103353f02aa6a7a45&chksm=fbac2d42ccdba454869bda2651740be06b634f5a073e49a25341879208b05d5a6eb19cc260b9&mpshare=1&scene=1&srcid=&pass_ticket=BT1lsAw9%2Bp9l5g2hmxfU%2BSDUA4rNYaDkNElT5fOXwcCnqD95iPPrdmgeEYXgI6iQ#rd
