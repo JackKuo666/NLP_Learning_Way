@@ -23,3 +23,6 @@ $ allennlp
 python
 import allennlp
 ```
+# 2.例子：基于LSTM的词性标注（POS）
+来源：https://allennlp.org/tutorials
+代码(中文注释)：https://github.com/JackKuo666/NLP_Learning_Way/blob/master/AllenNLP_code/POS_tagger_AllenNLP.py
