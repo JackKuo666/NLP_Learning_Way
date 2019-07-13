@@ -13,3 +13,13 @@
 ```py
 pip install allennlp
 ```
+## 测试
+直接终端：
+```py
+$ allennlp
+```
+或者：
+```py
+python
+import allennlp
+```
