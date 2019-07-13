@@ -317,6 +317,356 @@ http://www.huaxiaozhuan.com/
 
 http://www.zhuanzhi.ai/topic/2001604244625713/awesome
 
+# 11.其他学习资料
+
+一、15本NLP领域经典书籍（电子书）：
+
+
+百度云链接：
+
+https://pan.baidu.com/s/1VrtAF5VzP5CpFTvDNz4g5g
+
+
+密码：i71s
+
+
+
+二、41个NLP领域经典论文：
+
+
+百度云链接：
+
+https://pan.baidu.com/s/1ZkdMVQIXarU0Pij1V8eHSA
+
+
+密码：p59a
+
+
+
+三、自然语言处理相关数据集汇总
+
+
+（一）情感/观点/评论 倾向性分析
+
+1、ChnSentiCorp_htl_all 数据集
+
+    数据概览：7000 多条酒店评论数据，5000 多条正向评论，2000 多条负向评论
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/ChnSentiCorp_htl_all/intro.ipynb
+
+
+2、waimai_10k数据集
+
+    数据概览：某外卖平台收集的用户评价，正向 4000 条，负向 约 8000 条
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/waimai_10k/intro.ipynb
+
+
+ 3、online_shopping_10_cats 数据集
+
+    数据概览：10 个类别，共 6 万多条评论数据，正、负向评论各约 3 万条， 包括书籍、平板、手机、水果、洗发水、热水器、蒙牛、衣服、计算机、酒店
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/online_shopping_10_cats/intro.ipynb
+
+
+ 4、weibo_senti_100k数据集
+
+    数据概览：10 万多条，带情感标注新浪微博，正负向评论约各 5 万条
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/weibo_senti_100k/intro.ipynb
+
+
+5、simplifyweibo_4_moods数据集
+
+    数据概览：36 万多条，带情感标注 新浪微博，包含 4 种情感， 其中喜悦约 20 万条，愤怒、厌恶、低落各约 5 万条
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/simplifyweibo_4_moods/intro.ipynb
+
+
+6、dmsc_v2数据集
+
+    数据概览：28 部电影，超 70 万 用户，超 200 万条 评分/评论 数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/dmsc_v2/intro.ipynb
+
+
+7、yf_dianping 数据集
+
+    数据概览：24 万家餐馆，54 万用户，440 万条评论/评分数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_dianping/intro.ipynb
+
+
+8、yf_amazon 数据集
+
+    数据概览：52万件商品，1100 多个类目，142 万用户，720 万条评论/评分数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_amazon/intro.ipynb
+
+
+（二）中文命名实体识别
+
+dh_msra 数据集
+
+    数据概览：5 万多条中文命名实体识别标注数据（包括地点、机构、人物）
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/dh_msra/intro.ipynb
+
+
+（三）推荐系统
+
+
+1、ez_douban 数据集
+
+    数据概览：5 万多部电影（3 万多有电影名称，2 万多没有电影名称），2.8 万 用户，280 万条评分数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/ez_douban/intro.ipynb
+
+
+2、dmsc_v2 数据集
+
+    数据概览：28部电影，超70万用户，超200万条评分/评论 数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/dmsc_v2/intro.ipynb
+
+
+3、yf_dianping 数据集
+
+    数据概览：24 万家餐馆，54 万用户，440 万条评论/评分数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_dianping/intro.ipynb
+
+
+4、yf_amazon 数据集
+
+    数据概览：52 万件商品，1100 多个类目，142 万用户，720 万条评论/评分数据
+
+    下载地址：
+
+    https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_amazon/intro.ipynb
+
+
+
+四、自然语言处理开源项目汇总：
+
+1、增强的人工智能得分引擎
+
+项目链接：
+
+https://github.com/edx/ease
+
+
+2、自动语音识别
+
+项目链接：
+
+https://github.com/mozilla/DeepSpeech
+
+
+3、语法错误校正
+
+项目链接：
+
+https://github.com/atpaino/deep-text-corrector
+
+
+4、字素转换到音素
+
+项目链接：
+
+https://github.com/cmusphinx/g2p-seq2seq
+
+
+5、唇语辨别
+
+项目链接：
+
+https://github.com/astorfi/lip-reading-deeplearning
+
+
+6、命名实体识别
+
+项目链接：
+
+https://github.com/aritter/twitter_nlp
+
+
+7、释义检测
+
+项目链接：
+
+http://knowitall.cs.washington.edu/paralex/
+
+
+8、语音合成
+
+项目链接：
+
+http://www.festvox.org/index.html
+
+
+9、文本蕴涵
+
+项目链接：
+
+https://github.com/Steven-Hewitt/Entailment-with-Tensorflow
+
+
+10、音译
+
+项目链接：
+
+https://github.com/Kyubyong/neural_japanese_transliterator
+
+
+11、词嵌入
+
+项目链接：
+
+https://github.com/Kyubyong/wordvectors
+
+
+12、词汇预测
+
+项目链接：
+
+https://github.com/Kyubyong/word_prediction
+
+
+13、词分割
+
+项目链接：
+
+https://github.com/chqiwang/convseg
+
+
+14、指代消解
+
+项目链接：
+
+https://github.com/Kyubyong/nlp_tasks#coreference-resolution
+
+
+
+五、kaggle挑战赛完整源码
+
+1、论文自动评分系统：
+
+https://www.kaggle.com/c/asap-aes
+
+
+2、CHiME语音的分离和识别挑战：
+
+http://spandh.dcs.shef.ac.uk/chime_challenge/
+
+
+3、2015语言识别评估挑战赛：
+
+https://www.nist.gov/itl/iad/mig/2015-language-recognition-evaluation
+
+
+4、 UMICH SI650 – 情绪分类：
+
+https://www.kaggle.com/c/si650winter11#description
+
+
+
+六、自然语言处理实用工具包大汇总
+
+
+1、KenLM语言模型工具包
+
+http://kheafield.com/code/kenlm/
+
+
+2、WordNet Lemmatizer：
+
+http://www.nltk.org/api/nltk.stem.html#nltk.stem.wordnet.WordNetLemmatizer.lemmatize
+
+
+3、A statistical parser：
+
+https://nlp.stanford.edu/software/lex-parser.shtml
+
+
+4、spaCyparser：
+
+https://spacy.io/docs/usage/dependency-parse
+
+
+5、nltk.tag package：
+
+http://www.nltk.org/api/nltk.tag.html
+
+
+6、Illinois Semantic Role Labeler（SRL）：
+
+http://cogcomp.org/page/software_view/SRL
+
+
+7、NLTK Tokenizers：
+
+http://www.nltk.org/_modules/nltk/tokenize.html
+
+
+8、Merlin：基于神经网络的语音合成系统：
+
+https://github.com/CSTR-Edinburgh/merlin
+
+
+9、 NLTK Stemmers：
+
+http://www.nltk.org/howto/stem.html
+
+
+10、Gensim: word2vec：
+
+https://radimrehurek.com/gensim/models/word2vec.html
+
+
+11、fastText：
+
+https://github.com/facebookresearch/fastText
+
+
+12、GloVe:Global Vectors for Word Representation：
+
+https://nlp.stanford.edu/projects/glove/
+
+
+13、Stanford Word Segmenter：
+
+https://nlp.stanford.edu/software/segmenter.html
+
+
+14、NLTK Tokenizers：
+
+http://www.nltk.org/_modules/nltk/tokenize.html
+
 ---
 
 # 其他：
