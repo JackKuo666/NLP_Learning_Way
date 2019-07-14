@@ -24,8 +24,9 @@ python
 import allennlp
 ```
 # 2.例子：AllenNLP tutorials
-- [x] [AllenNLP tutorials]()
-    - [x] [1.基于LSTM的词性标注（POS）]
+- [x] [AllenNLP tutorials](https://allennlp.org/tutorials)
+    - [x] [1.基于LSTM的词性标注（POS）](https://allennlp.org/tutorials)
+        
         代码(中文注释)：https://github.com/JackKuo666/NLP_Learning_Way/blob/master/AllenNLP_code/POS_tagger_AllenNLP.py
     - [ ] [2.使用json文本配置的例子]
     - [ ] [3,4,5,...]
