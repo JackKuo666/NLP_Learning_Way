@@ -32,9 +32,9 @@ from allennlp.data.tokenizers import Token
 
 from allennlp.data.vocabulary import Vocabulary
 '''
-TokenIndexer表示如何将标记转换为索引的规则，而Vocabulary包含从字符串到整数的相应映射。
+TokenIndexer表示如何将token转换为索引的规则，而Vocabulary包含从字符串到整数的相应映射。
 例如，您的token索引器可能指定将token表示为字符ID序列，在这种情况下，Vocabulary将包含映射{character - > id}。
-在另外一个特定的例子中，我们使用SingleIdTokenIndexer为每个标记分配一个唯一的id，因此Vocabulary只包含一个映射{token - > id}（以及反向映射）。
+在另外一个特定的例子中，我们使用SingleIdTokenIndexer为每个token分配一个唯一的id，因此Vocabulary只包含一个映射{token - > id}（以及反向映射）。
 '''
 
 from allennlp.models import Model
@@ -103,11 +103,11 @@ class PosDatasetReader(DatasetReader):
             fields["labels"] = label_field
 
         return Instance(fields)
-        '''
-        DatasetReader.text_to_instance获取与训练example相对应的输入（在这种情况下是句子的tokens和相应的词性标签(part-of-speech tags)），
-        实例化相应的Fields（在这种情况下是句子的TextField和其标签的SequenceLabelField），并返回包含这些字段(Fields)的实例(Instance)。
-        请注意，tags是可选的，因为我们希望能够从未标记的数据创建实例(instances)以对它们进行预测。 
-        '''
+    '''
+    DatasetReader.text_to_instance获取与训练example相对应的输入（在这种情况下是句子的tokens和相应的词性标签(part-of-speech tags)），
+    实例化相应的Fields（在这种情况下是句子的TextField和其标签的SequenceLabelField），并返回包含这些字段(Fields)的实例(Instance)。
+    请注意，tags是可选的，因为我们希望能够从未标记的数据创建实例(instances)以对它们进行预测。 
+    '''
 
     def _read(self, file_path: str) -> Iterator[Instance]:
         with open(file_path) as f:
@@ -202,12 +202,8 @@ class LstmTagger(Model):
 reader = PosDatasetReader()
 # 现在我们已经实现了数据集读取器(DatasetReader)和模型(Model)，我们已准备好进行训练。我们首先需要一个数据集读取器的实例(instance)。
 
-train_dataset = reader.read(cached_path(
-    'https://raw.githubusercontent.com/allenai/allennlp'
-    '/master/tutorials/tagger/training.txt'))
-validation_dataset = reader.read(cached_path(
-    'https://raw.githubusercontent.com/allenai/allennlp'
-    '/master/tutorials/tagger/validation.txt'))
+train_dataset = reader.read("data/training.txt")
+validation_dataset = reader.read("data/validation.txt")
 # 我们可以使用它来读取训练数据和验证数据。这里我们从URL读取它们，但如果您的数据是本地的，您可以从本地文件中读取它们。
 # 我们使用cached_pa​​th在本地缓存文件（以及处理reader.read到本地缓存版本的路径。）
 
@@ -289,22 +285,22 @@ print([model.vocab.get_token_from_index(i, 'labels') for i in tag_ids])
 
 # ===========  保存模型 ========================
 # 最后，我们希望能够保存我们的模型并在以后重新加载它。我们需要保存两件事。
-with open("/tmp/model.th", 'wb') as f:
+with open("./tmp/model.th", 'wb') as f:
     torch.save(model.state_dict(), f)
 # 首先是模型权重
 
-vocab.save_to_files("/tmp/vocabulary")
+vocab.save_to_files("./tmp/vocabulary")
 # 然后是vacabulary
 
 # ===========  从新加载模型 ====================
-vocab2 = Vocabulary.from_files("/tmp/vocabulary")
+vocab2 = Vocabulary.from_files("./tmp/vocabulary")
 # 我们只保存了模型权重，因此如果我们想重用它们，我们实际上必须使用代码重新创建相同的模型结构。
 # 首先，让我们将词汇表重新加载到一个新变量中。
 
 model2 = LstmTagger(word_embeddings, lstm, vocab2)
 # 然后让我们重新创建模型（如果我们在不同的文件中执行此操作，我们当然必须重新实例化嵌入字(word_embeddings)和lstm）。
 
-with open("/tmp/model.th", 'rb') as f:
+with open("./tmp/model.th", 'rb') as f:
     model2.load_state_dict(torch.load(f))
 # 之后我们必须加载它的状态。
 
